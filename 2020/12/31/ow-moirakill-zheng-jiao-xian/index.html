@@ -1,0 +1,1358 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="【OW/Moirakill】正交线, 绘离杂物堆">
+    <meta name="description" content="想到什么就做什么的半吊子">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="renderer" content="webkit|ie-stand|ie-comp">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+    <title>【OW/Moirakill】正交线 | 绘离杂物堆</title>
+    <link rel="icon" type="image/png" href="/website2.png">
+
+    <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
+    <link rel="stylesheet" type="text/css" href="/libs/materialize/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/aos/aos.css">
+    <link rel="stylesheet" type="text/css" href="/libs/animate/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/matery.css">
+    <link rel="stylesheet" type="text/css" href="/css/my.css">
+
+    <script src="/libs/jquery/jquery.min.js"></script>
+
+<meta name="generator" content="Hexo 4.2.1"><link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css">
+<link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"></head>
+
+
+<body>
+    <header class="navbar-fixed">
+    <nav id="headNav" class="bg-color nav-transparent">
+        <div id="navContainer" class="nav-wrapper container">
+            <div class="brand-logo">
+                <a href="/" class="waves-effect waves-light">
+                    
+                    <img src="/medias/pen.png" class="logo-img" alt="LOGO">
+                    
+                    <span class="logo-span">绘离杂物堆</span>
+                </a>
+            </div>
+            
+
+<a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fas fa-bars"></i></a>
+<ul class="right nav-menu">
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/" class="waves-effect waves-light">
+      
+      <i class="fas fa-home" style="zoom: 0.6;"></i>
+      
+      <span>首页</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/tags" class="waves-effect waves-light">
+      
+      <i class="fas fa-tags" style="zoom: 0.6;"></i>
+      
+      <span>标签</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/categories" class="waves-effect waves-light">
+      
+      <i class="fas fa-bookmark" style="zoom: 0.6;"></i>
+      
+      <span>分类</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/archives" class="waves-effect waves-light">
+      
+      <i class="fas fa-archive" style="zoom: 0.6;"></i>
+      
+      <span>归档</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/about" class="waves-effect waves-light">
+      
+      <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
+      
+      <span>关于</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/contact" class="waves-effect waves-light">
+      
+      <i class="fas fa-comments" style="zoom: 0.6;"></i>
+      
+      <span>留言板</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/friends" class="waves-effect waves-light">
+      
+      <i class="fas fa-address-book" style="zoom: 0.6;"></i>
+      
+      <span>友情链接</span>
+    </a>
+    
+  </li>
+  
+  <li>
+    <a href="#searchModal" class="modal-trigger waves-effect waves-light">
+      <i id="searchIcon" class="fas fa-search" title="搜索" style="zoom: 0.85;"></i>
+    </a>
+  </li>
+</ul>
+
+
+<div id="mobile-nav" class="side-nav sidenav">
+
+    <div class="mobile-head bg-color">
+        
+        <img src="/medias/pen.png" class="logo-img circle responsive-img">
+        
+        <div class="logo-name">绘离杂物堆</div>
+        <div class="logo-desc">
+            
+            想到什么就做什么的半吊子
+            
+        </div>
+    </div>
+
+    
+
+    <ul class="menu-list mobile-menu-list">
+        
+        <li class="m-nav-item">
+	  
+		<a href="/" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-home"></i>
+			
+			首页
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/tags" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-tags"></i>
+			
+			标签
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/categories" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-bookmark"></i>
+			
+			分类
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/archives" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-archive"></i>
+			
+			归档
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/about" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-user-circle"></i>
+			
+			关于
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/contact" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-comments"></i>
+			
+			留言板
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/friends" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-address-book"></i>
+			
+			友情链接
+		</a>
+          
+        </li>
+        
+        
+    </ul>
+</div>
+
+
+        </div>
+
+        
+    </nav>
+
+</header>
+
+    
+<script src="/libs/cryptojs/crypto-js.min.js"></script>
+<script>
+    (function() {
+        let pwd = '';
+        if (pwd && pwd.length > 0) {
+            if (pwd !== CryptoJS.SHA256(prompt('请输入访问本文章的密码')).toString(CryptoJS.enc.Hex)) {
+                alert('密码错误，将返回主页！');
+                location.href = '/';
+            }
+        }
+    })();
+</script>
+
+
+
+
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://s3.bmp.ovh/imgs/2022/02/9a6b2e652d5cd127.png')">
+    <div class="container" style="right: 0px;left: 0px;">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <h1 class="description center-align post-title">【OW/Moirakill】正交线</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<main class="post-container content">
+
+    
+    <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
+<style>
+    #articleContent h1::before,
+    #articleContent h2::before,
+    #articleContent h3::before,
+    #articleContent h4::before,
+    #articleContent h5::before,
+    #articleContent h6::before {
+        display: block;
+        content: " ";
+        height: 100px;
+        margin-top: -100px;
+        visibility: hidden;
+    }
+
+    #articleContent :focus {
+        outline: none;
+    }
+
+    .toc-fixed {
+        position: fixed;
+        top: 64px;
+    }
+
+    .toc-widget {
+        width: 345px;
+        padding-left: 20px;
+    }
+
+    .toc-widget .toc-title {
+        margin: 35px 0 15px 0;
+        padding-left: 17px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    .toc-widget ol {
+        padding: 0;
+        list-style: none;
+    }
+
+    #toc-content {
+        height: calc(100vh - 250px);
+        overflow: auto;
+    }
+
+    #toc-content ol {
+        padding-left: 10px;
+    }
+
+    #toc-content ol li {
+        padding-left: 10px;
+    }
+
+    #toc-content .toc-link:hover {
+        color: #42b983;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+
+    #toc-content .toc-link::before {
+        background-color: transparent;
+        max-height: 25px;
+
+        position: absolute;
+        right: 23.5vw;
+        display: block;
+    }
+
+    #toc-content .is-active-link {
+        color: #42b983;
+    }
+
+    #floating-toc-btn {
+        position: fixed;
+        right: 15px;
+        bottom: 76px;
+        padding-top: 15px;
+        margin-bottom: 0;
+        z-index: 998;
+    }
+
+    #floating-toc-btn .btn-floating {
+        width: 48px;
+        height: 48px;
+    }
+
+    #floating-toc-btn .btn-floating i {
+        line-height: 48px;
+        font-size: 1.4rem;
+    }
+</style>
+<div class="row">
+    <div id="main-content" class="col s12 m12 l9">
+        <!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        <div class="card-content article-info">
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                    <div class="article-tag">
+                        
+                            <a href="/tags/Overwatch/">
+                                <span class="chip bg-color">Overwatch</span>
+                            </a>
+                        
+                            <a href="/tags/Moirakill/">
+                                <span class="chip bg-color">Moirakill</span>
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/fanfic/" class="post-category">
+                                fanfic
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="post-info">
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
+                    2020-12-31
+                </div>
+                
+
+                
+
+                
+                <div class="info-break-policy">
+                    <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
+                    11.5k
+                </div>
+                
+
+                
+
+                
+                    <div id="busuanzi_container_page_pv" class="info-break-policy">
+                        <i class="far fa-eye fa-fw"></i>阅读次数:&nbsp;&nbsp;
+                        <span id="busuanzi_value_page_pv"></span>
+                    </div>
+				
+            </div>
+        </div>
+        <hr class="clearfix">
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                <blockquote><p>《正交线》内页公开①<br>没有智械危机的世界，大概算是现pa，有各种原创龙套<br>写的很爽，看着会不会爽就不知道了</p>
+</blockquote>
+
+<h4 id="Chapter-0"><a href="#Chapter-0" class="headerlink" title="Chapter 0"></a>Chapter 0</h4><p>莫伊拉接到了一通陌生来电。<br>我要杀死加布里尔·莱耶斯。电话那头的声音这么说道。<br>一般来说，她会立刻单方面中止这场无聊的恶作剧。<br>除非，说出这番话的是他本人。</p>
+<p>与一年前相比，加布里尔并没有什么明显的变化。他还穿着那件宽大的风衣，随身行李也没有增加的迹象，仿佛他们上次道别只在昨天，而他只是去附近的城市逛了一圈。<br>唯一变化的，也许就是他颧骨处多出的两道伤疤。<br>这里还真是够远的。他站在玄关，随意地将行李放在地上，仿佛第一次到访般，打量着周围的一切。<br>这话和你自己说去。莫伊拉对加布里尔的抱怨不以为意，靠着墙答道。当时我可没有选择的权利。<br>加布里尔没搭话，只是干笑了两声。他走到窗前，透过百叶窗的缝隙看向屋外。茂密的枝叶能阻断大部分窥探的视线，但他还是再三确认室外无人后才放开手。<br>这段时间你都去了哪？她问。怎么突然想起我了？<br>我去了很多地方。埃及、法国、意大利……<br>为了那个人？莫伊拉打断了他的回忆。<br>对。他深吸一口气，念出那个名字。马克希尔·卡恩。<br>莫伊拉对这个人谈不上熟悉，她的了解仅仅来源于加布里尔某几份报告中的寥寥数语。加布里尔并不经常要求她参与这类行动，而她也不觉有何不妥。她本就不是来做这种事的。<br>但现在看来，情况好像有所改变。<br>所以，你有什么发现？<br>我找到了一个机会。加布里尔转过身，看向莫伊拉的方向，视线却没落在她身上。不过，他们好像也发现了我。他指了指脸上的两道伤疤，露出不屑的笑容。<br>你打算做什么。她低声问道，却早已猜到答案。<br>你已经知道答案了，莫伊拉。<br>那通来电的内容在她耳边回响。<br>我需要你的帮助。这就是我来找你的原因。<br>莫伊拉沉思片刻。这应该不在我们的约定范畴以内。<br>出乎她意料，加布里尔痛快地承认了她的说法。<br>你可以拒绝。他一副无所谓的样子，耸了耸肩。<br>这只是个私人请求。<br>私人请求。莫伊拉复述了一遍，但她的语气听不出是陈述句还是疑问句。<br>我需要做什么？她问。<br>这回轮到加布里尔的表情出现了微妙的变化。<br>你——不再考虑一下？<br>她笑了。说得好像我真的有第二种选择一样。</p>
+<p>这是附近最好的房间。头发稀疏的中年男人一边领着莫伊拉上楼，一边絮絮叨叨地吹嘘着。莫伊拉推开门，阳光下，尘埃在空气中自由地舞动，屋内除了一张半新的办公桌别无他物。男人脸上挂着讨好的笑容，递过钥匙便匆匆离开，只留下莫伊拉一人。<br>窗外，宽阔的街道在她眼底一览无余。只是在那阴暗的角落，不知有多少暗流涌动。<br>而她也即将成为那股暗流的一部分。<br>她取出行李箱里的各类设备，移动终端上赫然跳出新邮件的消息提醒。发信时间是七个小时前，正好是他们分别的时间。<br>莫伊拉没有回复。她知道，不会有任何人收到她的回信。<br>而这里，将成为她新的起点。</p>
+<h4 id="Chapter-1"><a href="#Chapter-1" class="headerlink" title="Chapter 1"></a>Chapter 1</h4><p>这是再普通不过的一个早晨。莫伊拉推开门，微凉的风和她迎面撞了个满怀。金色的晨光已然笼罩了大地，却还不足以驱散她的寒意。她竖起衣领，裹紧身上的外套，径直朝街角的店面走去。路上空无一人，只有小巷深处能看见几个似坐似躺的人影。莫伊拉绕过面前一滩暗红色的污迹，不打算深究它的成分。在这里，这种事已是司空见惯。她快步走向自己的目的地，透过玻璃，隐约能看见一名粗矮的壮汉一边打着哈欠一边挂上“营业中”的牌子。她走进店内，店主瞟了她一眼，看清来人是谁后又低下头继续擦拭起手上的玻璃杯。莫伊拉也不在意对方近乎漠视的态度，取走自己需要的东西后，她轻轻把钱款放在同样布满污渍的柜台上，转身走出这间破败的小店。不经意间，她瞥了一眼路边的橱窗，却在斑驳的倒影里捕捉到一个意想不到的身影。那是一个身着黑色风衣，戴着兜帽的男子，他低着头，面容被遮住了大半，目不斜视地和莫伊拉擦肩而过。她愣了一下，随即转身看去，却发现身后空无一人。那一定是他。一个名字在她的脑海中浮现。<br>但为什么他会在这？莫伊拉站在原地，暂时忘记了自己原本的目的。他一定有所打算，但——<br>“嘿，医生！”莫伊拉感觉自己的肩膀被拍了一下，她转过头，一头紫发的女孩笑嘻嘻地朝她挥着手。“我看你站在这好久了。”<br>“今天又有什么新计划吗，我们最厉害的黑客？”莫伊拉的情绪并未为对方所感染，冷冷地回答道。<br>“下周，我们老大想邀请你参加一个小小的聚会，不知医生你意下如何？”<br>“承蒙邀请，我一定准时参加。”莫伊拉微微颔首，用空着的一只手行了礼。黑影见自己任务已经完成，脸上又恢复了方才嬉笑的神情。“我敢保证，您会度过一个愉快的夜晚。”她稍微凑近了一点，刻意放轻声音在莫伊拉耳边说道：“您或许还能见到某位——意料之外的客人。”话音刚落，她就后退着和莫伊拉拉开距离，眨了眨眼，逐渐消失在一团淡紫色的粒子中，没有给她任何提问的机会。<br>她在暗示什么？莫伊拉没有再次停留在原地，而是像往常一样原路返回。对方最后的低语还在她耳边回响，而她有理由相信那并非无心之言。黑影知道她的来历，这是她们心照不宣的事实。但直到现在，对方也没有借机向她提出任何条件。即使如此，她也并不信任这名黑客。在这里，没有人会做无利之事，对于黑影来说更是如此。门上的识别系统发出轻微的提示音，莫伊拉放下手里的物品，拿起放在桌旁的杯子，咖啡温度正好。她抿了一口，随后打开了邮箱中的一封邮件。<br>八年了。<br>莫伊拉并没有读完邮件，而是径直关闭了页面。这么多年来，信件的内容早已刻进她的记忆深处。<br>无论黑影想干什么，她都不会让她轻易得手。至于那个人——<br>她很快就能确认这件事了。</p>
+<p>接下来的一周里，莫伊拉也再没有见过那个陌生人。街上亮起昏黄的灯光，她朝楼下看去，一辆黑色轿车静静地停在窗户的正下方。真贴心。莫伊拉放下百叶窗，确认一切准备妥当后走出大楼。车门无声地滑开，莫伊拉坐进车内，深色的玻璃隔断了外界的光线，也阻隔了她看向车外的视线。驾驶员沉默地启动了发动机，车辆缓缓加速，最终维持在一个恒定的速度。直走，左拐，又一个左拐，右拐。莫伊拉在脑海中勾勒出大致的路线，对于他们此行的目的地也有了自己的答案。不知过了多久，车子停了下来，她跨出车外，一幢华丽的建筑矗立在她面前。莫伊拉朝金碧辉煌的大厅走去，她递给门旁的接待员一张卡片，对方仔细看过后毕恭毕敬地鞠了个躬。她点点头，收回卡片，走进大厅。她能感受到其他客人朝她投来的视线，听见他们的窃窃私语，但她对此并不意外。无论如何，一名名不见经传的“医生”出现在这种场合还是有些引人注目。但和她曾经的经历相比，这种程度的注视几乎算得上“友好”了。莫伊拉不禁弯了弯嘴角。她望向正前方，很快在人群中发现了一张熟悉的面孔。<br>马克希尔，她不知道见过多少次这个人的照片了。高大的德国人似乎也看见了她，远远地朝她举起酒杯。莫伊拉穿过人群，第一次站在这个把握了大半个地下产业的商业巨头面前。她注意到对方身旁站着一名戴着面具的男人，但周围却没有一个人对他略显奇异的装束表示出丝毫的惊讶。<br>“莫伊拉·奥德莱恩女士，感谢您能接受我的邀请。”<br>她弯腰致意：“尊敬的马克希尔先生，有幸参加您的聚会，我不胜感激。”<br>对方不动声色地点点头，但他充满自信与得意的眼神还是出卖了他的内心。不知是有意还是无意，他没有介绍站在身旁的神秘男子的身份，莫伊拉自然也不会去追问。有时候，好奇心过重不是一件好事。<br>但有的事会自己找上门。<br>“事实上，我欠您一个人情，医生。”那名戴着面具的男子径直站到莫伊拉面前，伸出右手，尽管对方口中说着致谢的话语，那沙哑的嗓音中却听不出任何感情。“您还记得一位左腹被刺伤的年轻人吗？”<br>经他这么一说，莫伊拉确实想起自己几周前接治过这么一个年轻人。那人深更半夜敲开了莫伊拉“诊所”的大门，却还没等她询问详情就昏了过去。所幸那伤势并不重，莫伊拉简单处理后就上楼继续未完的工作，把仍然处于昏迷中的客人留在了楼下。等到第二天一早，楼下已没了人影，莫伊拉只当对方趁着夜色逃到了其他地方，也不在意那人究竟是何身份。做她这一行的，比起医术是否精湛，能否避免问出不必要的问题才是立足的关键。<br>现在想来，几天后收到的一笔未知来源的汇款或许就和那件事脱不了干系。<br>“您无需道谢，这是我的工作。“莫伊拉回握住对方。像是为了遮住什么痕迹一般，他的双手被一双黑色的皮质手套包裹得严严实实。“更何况，我也得到了相应的报酬。”她笑了笑，暗示对方不必在意。她可不希望自己今后的行动被所谓的人情所束缚。<br>似乎是读懂了她的心思，对方便不再客套下去。“祝您度过一个愉快的夜晚，奥德莱恩医生。”马克希尔也不在意他那有些僭越的举动，紧接着说道：“您可以随意逛逛，不必拘束。我还有几个朋友要见，恕我失陪。“莫伊拉目送两人消失在人群中，自己也转身走向大厅的角落。有几人兴许是目睹了她和这里的主人交谈的情景，向她投来好奇的目光，盘算着莫伊拉是否有结交的价值。莫伊拉本就不打算在这里认识什么新朋友，自然也不会主动去和那些人攀谈。她取了一杯酒，观察着众人的神色与姿态，脑海中回放的仍是方才的一幕。<br>不会有错。尽管她依然没有真正看见对方的脸，莫伊拉还是能从体态上断定，他就是上周与她擦肩而过的那个人。<br>莫伊拉一边回忆，一边踏上身旁螺旋上升的阶梯。旋梯的尽头，一片种满各类花草的露台出现在她眼前。与大厅相比，露台上几乎听不见任何声音，只隐约有几个断断续续的词句从枝叶的缝隙中传出。她靠在栏杆上，蔷薇的叶片在风中相互摩擦，发出沙沙的响声。今晚没有云，平静的海面在月色下闪动着粼粼的波光，那是唯一能将它与夜晚的天空区分开的特征。<br>而她等待着。<br>“我们又见面了，医生。”低沉的嗓音隔着绿藤传入莫伊拉的耳中，像是蒙了层纱。<br>她往声音的来源靠近了一点。“这上面风景不错。”<br>“这里也适合聊天。”<br>“您想聊什么？”<br>“我们有多久没见面了？”<br>“嗯……好问题。”莫伊拉想了想，回答道，“半个小时？”<br>“哈——倒也没错。”那人轻笑了几声，却没有继续说下去。<br>八年零七天。莫伊拉在心底默念着。这是她记住的为数不多的日期。<br>“我们有八年没见了，莫伊拉。确切来说，八年零七天。”<br>“没想到你还记得。”<br>“我至少还是会记得自己的‘忌日’的。”<br>莫伊拉没有对那个不祥的词语提出异议。从法律上说，他没说错。<br>“所以，那天晚上也是你安排好的？”<br>“不，那只是个巧合。我只是稍微利用了一下。”她仿佛能看见对方脸上得意的笑。“顺带一提，昨天也只是偶然。”<br>莫伊拉对这个解释不置可否。“你确定没有其他原因？”<br>“时候快到了。”<br>“我需要做什么？”那果然是一个信号，一个宣告幽灵复生的信号。<br>“我会通知你的，在那之前，原计划不变。”<br>有那么一瞬间，莫伊拉感觉自己回到了八年前，这里不是什么金碧辉煌的宅邸，而是他们位于郊区的秘密据点。<br>但她知道，这是不可能的。<br>“我现在该叫你什么？”<br>“你一定听过。‘死神’，这是我现在的名字。”<br>“再熟悉不过了。”她不知道从多少位客人的口中听见这个名字，但她没有想到真的是他。<br>“听上去我的名声还不小。”<br>“黑影知道多少？”<br>“不多。”他顿了顿，像是知道她在想什么一般解释道，“她是我们这边的，暂时。”<br>“看来我没什么可担心的。”沉默在空气中蔓延，仿佛一切都在这瞬间跌入静止。那个名字在舌尖上不安地跳动着，却迟迟没有说出口。<br>“好久不见，加布里尔。”她轻声说道。空气重新开始流动，话语在风中飘散。<br>“嗯，好久不见。”仿佛以这句话为标志一般，加布里尔换上了另一副语气。“希望我们还能再见面，医生。”<br>“我期待着那一天的到来。”</p>
+<p>走下楼梯时，莫伊拉终于遇到了黑影。她就这么出现在她面前，旁若无人地坐在扶手上，脸上带着玩味的笑容。<br>“博士，久别重逢的感觉如何？”她不住地晃着双腿，像是对自己的平衡技巧有着极高的自信。<br>“很愉快的一次谈话，多谢你的关心。”莫伊拉露出礼貌的微笑。<br>“不客气。”黑影从扶手上跃下，对她眨了眨眼。“我一直都很好心。”</p>
+<h4 id="Chapter-2"><a href="#Chapter-2" class="headerlink" title="Chapter 2"></a>Chapter 2</h4><p>他们的再次见面比莫伊拉想象中来得更早。<br>莫伊拉刚刚送走今天的最后一位客人，门外却响起不合时宜的敲门声。规律的叩叩声透过门板传入莫伊拉的耳中，显得有些沉闷。这个时间点，还没到“正式营业“的时候。莫伊拉一边揣测门外来客的身份，一边拉开门。<br>“看来我来得正好。”一位“熟人”出现在她面前。这次他不再西装革履，而是换了一件更易于隐匿身形的风衣。他的大半张脸都隐藏在兜帽的阴影之中，只是那副骇人的面具依然让人移不开目光。<br>“我可以进去吗？”他一脚踏入门与门框间的空隙，虽然用的是疑问句，却颇有种不由分说的味道。莫伊拉只好松开握着门把的手，示意对方走进房间，随后挂上了暂时歇业的标志。<br>“抱歉，我这没什么好东西能拿出来招待客人。”她走过窗前，顺手拉上了窗帘，冰冷的白炽灯成为了屋内唯一的光源。<br>“无妨，我很快就走。”加布里尔倚着门口的柜子，压低了音量。“你听说过布迪·费兰这个人吗？”<br>“马克希尔的秘书。你对他应该比我更熟。”<br>“我曾经见过他几面。一个精明的商人，但没有他的上司想象中那么忠诚。”<br>“他掌握了什么？”她很快意识到对方的用意。<br>“马克希尔肮脏交易的证据，他似乎打算把这东西当成日后的保险——”<br>“但会有别的东西比利益来得更快。”她接过话头，“听上去，留给我们的时间不多了。”<br>“明晚，我会把他带过来，之后的事就交给你了。”<br>莫伊拉点点头。鲜血与信息，这是他们再熟悉不过的两样东西。<br>加布里尔匆匆离开了这栋建筑，他们仍然需要处处小心。谁也无法肯定他们的工作会不会因为一张照片而功亏一篑。莫伊拉坐回桌前，打开隐藏在文件夹深处的一份档案。这次的行动目标正阴沉地盯着她。<br>也许他们很快就可以摆脱这种局面了。</p>
+<p>午夜，上弦月隐藏在云层之后，透出暗淡的光。莫伊拉站在窗前，斑驳的玻璃模糊了远处的灯光。她缓缓将窗帘拉上，厚重的漆黑幕布将屋内与屋外分割成两个世界。她看向柜面上的一瓶药剂，浅紫色的液体在瓶中折射出夺目的光芒，乍看下如同美丽诱人的宝石。<br>她并不常做这种事，但这并不意味着她不擅长。<br>砰砰作响的敲门声让莫伊拉放下了手中的东西。她等了一会儿，直到敲门声变得有些急躁时，她才打开门。<br>布迪·费兰站在她面前，一只手捂着腹部，鲜血不断从指缝间渗出。她大概知道加布里尔是怎么把他带过来的了。在这里，接这种生意的人随处可见。<br>“你就是——莫伊拉·奥德莱恩……医生？”<br>“您好像遇到了点小麻烦。”<br>“你要多少钱？”<br>“这件事我们可以一会儿再谈。但您躺下有助于我的工作。”<br>“你最好不要有其他打算。”布迪半信半疑地哼了一声，稍远的地方传来玻璃器皿相互碰撞的声音。<br>“这会让你好受一点，费兰先生。”耳麦里，莫伊拉的声音混杂着轻微的电流声，听上去显得有些陌生。<br>无论如何，他都不应该这么做。今晚，他本该跟随马克希尔参加另一场宴会，等到一切结束后再趁机回收相关的物品；但现在，他却推掉了既定行程，蹲守在一栋连照明设施都没有的废弃公寓中，监听着从距离不到两百米远的房间里传来的动向。<br>他并非不信任莫伊拉，相反，对方以往完成的每一个任务都堪称完美，而这甚至比他们曾经完成过的大多数任务都要简单得多，他不应该有任何的担忧。<br>只是为了以防万一。如果他们无法拿到这份资料，再想抓到对方的把柄不知要等到何时。这次行动容不得出现任何差错。<br>但今晚应该轮不到他出场。再过二十秒，一切都会像他料想的那般结束。平静，迅速，没有一丝波澜。<br>“等等。你在做什么——”<br>一声枪响，似乎还有某人的惊呼，滋啦作响的电流声以及玻璃的炸裂声是他最后听见的东西。<br>死寂笼罩着他。<br>谁中枪了？<br>显然，候选人只有一个。<br>枪。他当然带了枪。出门带上武器是最基本的常识，对他这种人更是如此。<br>但为什么会被察觉？哪个环节出了差错？难道他们的计划从一开始就暴露在聚光灯下？<br>不，不可能，否则他们根本走不到这一步。<br>不对，重要的不是这个。加布里尔飞快地收起摆在地上的接收装置，摘下已经失去作用的耳机，拉开窗帘的一角。二层的窗户被遮得严严实实，从外部看上去是那么的平静。若非他听见那一声掠过耳边的枪响，他不会相信那栋大楼里发生了什么。<br>加布里尔离开窗边，三步并作两步走到生锈的铁门前。破旧的铁门发出吱呀的声音，漆黑的走廊上空无一人。他无声地翻下楼梯，街上一个人也没有，不远处的大楼也依旧没有任何异样。加布里尔穿过一条又一条小巷，朝目的地奔去。<br>他在楼底的大门前停住，一层的大厅一片漆黑，玻璃门却缓缓滑开，依旧保持良好的运作状态。冷静。他做了一次深呼吸。加布里尔握紧别在腰间的枪。贴着墙，借着微弱的月光，他跨过地上的斑斑血迹，走上通往二楼的台阶。一切都如同被按下静音键一般，他甚至听不见自己的心跳声。<br>一片死寂。<br>终于，他来到了昨天刚刚造访过的房间门前，空气中的血腥味也变得愈发浓重。他掏出一张薄薄的卡片，在门锁上刷了一下。没想到他居然有一天真的要用到这东西。随着一声轻微的开锁声，他猛地推开门，正打算举起枪口，却在出手的前一刻停下了动作。<br>莫伊拉靠着桌子的边缘，偏过头，望着他，散乱的发丝在汗水的作用下紧贴着额角。<br>他一眼瞥见对方右肩那一滩猩红的污迹，以及污迹中央焦黑的孔洞。<br>“你可真准时。”她的语气与平时无异，声音却轻了许多。“看来你做了不少准备。”<br>鲜红的液体顺着衬衫的褶皱淌下，勾勒出诡异的纹路。<br>“你——”他张了张嘴，却感觉喉咙像被梗住一般发不出声音。<br>“喏，你要的东西。”莫伊拉径直丢来一个小物件，他只好伸出手接住。他摊开手，一枚封装着的芯片躺在他的掌心。<br>他将手中的东西放进外套的内袋。他们离目标又近了一步。<br>但他还是感觉心里沉甸甸的。<br>“你……还好吗？”<br>“小伤，不要紧。”莫伊拉用左手在抽屉里翻找着，脸上依旧是一副无所谓的样子。“我见过许多比这更严重的。”<br>她说得那么轻描淡写。“需要我帮忙吗？”<br>”不，我一个人就好。”她拿起桌上的剪刀，在肩膀周围比划了几下，还是改了口：“好吧，可能需要你帮个小忙。”她边说，边将剪刀递到加布里尔面前。<br>“帮我把这里剪开就好。”她努努嘴，示意需要操作的位置。加布里尔接过工具试用了几下，竟觉得用起来有些生疏。无论是过去还是现在，他都不经常接触这类事，偶尔需要紧急包扎时也都是胡乱裹上几层绷带了事。他凭着依稀留存在脑海中的记忆，一手扯住衣袖，一手将剪刀的尖端抵着早已被鲜血浸透的布料。透过余光，加布里尔看见对方因自己的动作而皱起了眉头。<br>他屏住呼吸，尽量避开血迹的中间部分，但凝固的血液将衣物与伤口紧紧粘合在一起，让他不得不用一些更暴力的方法。<br>“它可能有点难取下来。”他住了手。<br>“我知道。”她的声音依旧是那么平静，甚至带上了点调侃。“别忘了，我就是干这个的。”<br>但加布里尔还是听见了那有意压低的嘶声。<br>他将沾了血的剪刀与拆下的布料放在一旁，退回到几步之外的地方。“还有什么需要我做吗？”在苍白肌肤的衬托下，那处伤口是那么显眼。尽管他尽力将视线移向别处，眼前所见依旧是满眼的红。<br>“没事，很快就好。”莫伊拉拿起另一柄细长的手术刀，朝加布里尔身后挥了挥，“也许你可以帮我把那个人挪个地方？”<br>“噢，当然。”他转过身，地上男人的狰狞面容以及四处喷溅的血迹已经告诉他这里发生了什么。右腕上的新鲜创口，地上染血的手术刀，摔碎的针筒，以及一支打了两发子弹的手枪，答案昭然若揭。身后传来细碎的呻吟和喘息，他将男子扛起，放在房间的墙角。<br>“那个仪器……你居然还留着？”他不禁出声问道。<br>“以防万一。”淡黄色的光晕包裹着被撕裂的创口，刚才还流着血的弹孔已愈合了大半，只有周围依旧泛红的皮肤还在提醒着这里曾存在过什么。突然，她抬起头，“能帮我把那卷绷带递过来吗？”<br>“给。”他顺着对方的视线朝身后的橱柜看去，果然找到了一卷全新的绷带。莫伊拉扯开绷带，在右肩缠了几圈，渗出的鲜血在绷带上留下了一个红点。她试探着活动了几下，确认没有大碍后，走到房间的另一头，取出一件全新的衬衫。加布里尔心照不宣地背过身，空旷的房间里只剩下衣物摩擦的窸窣声。他低头看向墙边的立柜，玻璃碎片和电子元件的碎屑散落在柜面上，一枚子弹深深嵌入其后的墙体，向外延伸出几条裂痕。<br>他小心翼翼地拾起散落的零件。“所以，你的研究还在继续吗？”<br>“我不会放弃它，但这里毕竟条件有限。”莫伊拉扣上最后一粒扣子，走到他身旁，将额前的发丝拨到一旁。<br>“很快就会结束的。”直到此时，加布里尔才感觉自己脑中紧绷的弦放松了一点。<br>但进门时的景象依旧在他眼前不断回放。<br>他长出一口气。“我该走了。”他走向门口，“需要我来处理那玩意吗？”<br>“我能解决，不用担心。”<br>他点点头，推开门，屋外的血腥味早已散去，仿佛什么事也没有发生过。<br>他觉得自己应该再说点什么。<br>“莫伊拉。”<br>“怎么了？”<br>“……照顾好自己。”说完，他便戴上兜帽，消失在夜色之中。</p>
+<h4 id="Chapter-3"><a href="#Chapter-3" class="headerlink" title="Chapter 3"></a>Chapter 3</h4><p>傍晚，夕阳的余晖冲破云层，撒下最后的光芒。莫伊拉坐在窗前，享受着她少有的闲暇时光。时隔半月，布迪·费兰的遗体正无声地在某个不知名的小巷腐烂殆尽，成为无数虫豸觅食的沃土。没有人再提起他的名字，各大报道的头版人物换成了一个陌生的面孔，仿佛这个人从始至终都不曾存在。<br>但莫伊拉依旧清楚地记得子弹贯穿身体的感觉，肩部的疤痕无时不在提醒她回忆起当晚的经历。<br>还有这个东西。她打开上锁的抽屉，从层层文件下取出一枚指甲盖大小的存储卡。那天晚上，她在与芯片同一侧的衣袋中找到了它。卡面上的糖骷髅标志在橘红色的光线下不停变换着色彩，底下的一行小字也若隐若现。<br>一份礼物。而她很确定，这份礼物的收件人不是费兰。<br>“你难道不好奇里面装了什么吗？”轻快的声音从窗外传来。黑影站在广告牌上，一副摇摇欲坠的样子。莫伊拉早已习惯对方不合常理的行为，索性从座位上站起，倚着窗框继续观察手上的”礼物“。<br>“也许你亲口告诉我会更快。”她把存储卡丢回黑影手里。“我可不想陪你玩那些无聊的游戏。”<br>“别这么戒备，我不会打扰你们的。”黑影做了个鬼脸，开始玩起了抛接游戏。“只是一张照片而已。”她突然抓住还在下落的存储卡，一张放大的照片在她手中浮现。与莫伊拉预想的完全不同，照片上既没有她，也没有加布里尔，甚至没有出现任何一张她熟悉的面孔。但她认出了照片背景里模糊的标志。<br>绿洲城。她蹙起眉头。<br>“你在暗示什么？”<br>似乎是见到了期待中的反应，黑影收起照片，露出狡黠的笑容。“什么也没有。我只是给你看了张照片。但你——”她发出满意的感叹，“真是耐人寻味。”<br>“你知道了又能怎样？”<br>“我说过了，我什么也不会做。”像是对莫伊拉的质问感到无奈一般，她耸了耸肩，脸上的表情却没有丝毫变化。“不过我很期待最后的结果，博士。”她纵身一跃，落到不远处的另一块广告牌上冲莫伊拉挥手。天色渐暗，夕阳已然落到地平线以下，莫伊拉很快便看不清对方的身影。她关上窗，坐回桌前，手指不自觉地移动光标，点开邮箱内最新的一封邮件。光标在回复框里不停地闪动着，却始终没有新的字符跳出。<br>“莫伊拉？”活页的开合声将她惊醒。她抬头看向站在门口的加布里尔，不动声色地关上网页。这还是他们这半个多月来第一次见面。莫伊拉不知道自己刚才是什么表情，但从对方的语气中也可窥见几分端倪。无论如何，从现在起，她不能让他再察觉到什么迹象。<br>还没到时候。<br>“你来了。”她站起身，尽量让自己的声音平稳正常。“需要我教你怎么使用吗？”她从柜橱里取出一小瓶试剂递到加布里尔手中，淡紫色的液体随着瓶身的振荡而晃动。<br>“不用。”加布里尔检查了一番，确认无误后将其收起。但他并未立刻离去，而是停在原地，仿佛还有事未完成。<br>不要提问。<br>“你遇到什么事了？”她的期望还是落了空。<br>“我很好，加布里尔。”她试图让自己听上去轻快一点。“不能更好了。”<br>加布里尔沉默着盯着她，她几乎能感受到对方的视线停留在自己身上所带来的压力。这套说辞过于单薄，就连她自己都不相信这种根本算不上解释的说法能使加布里尔不再纠结于她一时的失态。<br>但显然，现实总是喜欢为她带来一个接一个”惊喜“。<br>“……那就好。”长久的沉默后，她听见一声长叹。“一切顺利的话，也许我们这周就能回去了。”<br>我们。莫伊拉在心里复述了一遍。“听上去真是个好消息。”<br>“我会让它成真的。”他推开门，门锁发出咔哒的响声，屋里又只剩下她独自一人。莫伊拉盯着屏幕，想了想，重新点开那封邮件的回复页面。紧接着，房间里响起清脆的键盘声。<br>”三天后，我会给你们答复。“</p>
+<h4 id="Chapter-4"><a href="#Chapter-4" class="headerlink" title="Chapter 4"></a>Chapter 4</h4><p>夜幕低垂，加布里尔来到金色宅邸的门前。他推开厚重的大门，曾经人声鼎沸的大厅现在却空无一人。与一个多月前相比，几乎是天壤之别。他穿过昏暗的长廊，周围只有自己的脚步声在墙壁间碰撞、回响。<br>加布里尔俯身钻进楼梯下方的狭小空间，在墙壁上摸索了一番，一扇外观与墙面别无二致的暗门无声地滑开。他走下台阶，远远地看见屋内站着的人影。<br>“有什么进展吗？”马克希尔背着手，没有转身。<br>“他们暂时停手了，这对我们是个好消息。”加布里尔停在离对方几步开外的地方，没有继续向前。藏在袖口的试剂瓶有些硌手。“至于‘老鼠’，我已经有了怀疑的人选。”<br>“很好。”他称赞道，言语里却听不出丝毫喜悦，只是一味地喃喃自语。“他们不可能抓住我的……绝对不可能……”<br>“我会揪出叛徒的。”加布里尔往前挪了几步，装着药剂的玻璃容器滑入他的手中，瓶口的针头隐约可见。这是最后一步了。<br>他沉默地点头，回过身，抬起手，似乎还打算再说些什么。但下一秒，他便彻底变了脸色。他僵硬地低下头，盯着被刺中的部位，露出一副难以置信的神情。他瞪着加布里尔，扯出一个扭曲的笑容。<br>“啊……你……”<br>他将空的试剂瓶放回口袋。“这么多年过去了，你的反应倒是迟钝了不少。”<br>听见加布里尔这番叙旧般的话语，他的瞳孔在恐惧的作用下急剧缩小。他收起最后的笑容与体面，面容因愤怒与绝望而变得愈发扭曲。“加布里尔·莱耶斯。”他咬着牙念出他的名字。<br>“看来我演得还不错。”他干笑了几声。“不用担心，我们还会再见面的。”<br>马克希尔的神情变得晦暗不明，行动也逐渐迟缓起来。加布里尔正打算联系负责接应的“前”同事，余光却闪过一道白光。下意识的肌肉反应让他堪堪躲过对方最后的挣扎。面具与地面的撞击声在此刻显得格外清脆。温热的液体沿着下颌滴落，但这点小伤对他已是家常便饭。他擦去血迹，弯腰看向倒在地上的男人，右手戒指上的刀片还沾着未干的血液。若不是他及时躲开，恐怕流血的绝不会是这种无关紧要的部位。确认对方已经失去意识后，加布里尔拨通了一个电话号码。<br>“您好，请问——”<br>“派人过来吧。走廊尽头右拐，楼梯底下有个地下室。”<br>电波那头的男声停顿了片刻。“你做了什么？”<br>“放心，他还活着。”上方传来杂乱的脚步声。“他逃不走。”<br>他拍掉面具上的灰尘重新戴上。楼梯口已然出现了好几个身着黑色制服的年轻人。见到屋内还站着另一个人，众人愣了一瞬，但很快理解了局面，选择忽视加布里尔的存在，转而抬起昏迷不醒的另一人朝屋外走去。<br>“所以那真的是你？”电话那头的法国人依旧半信半疑。“虽然我知道，但——”<br>“故事我可以之后再讲给你听。”加布里尔及时打断了对方，他还不想把整晚的时间都花在一通电话上。“眼下我们有更重要的事要做。”<br>“我会准备好一切的。”拉克瓦也知道现在不是叙旧的时候，顺势转移了话题。”需要我为你安排返程的行程吗？“<br>“不用，我还有一些事要处理。”加布里尔简单交代了几句便结束了通话。他深吸一口气，又缓缓吐出。屋里静得只能听见他的呼吸声，让他一时有些恍惚。过去的种种片段在他眼前闪过，如同一部加速播放的默片。或黑或白的人影在舞台上无声地穿梭，唯独一个人的声音听得十分真切。<br>“加布里尔？”他顺着声音望去，发现自己不知不觉又回到了大厅。莫伊拉站在门口，远远地和他打了个招呼。<br>“我刚刚看见一架运输机起飞。”她偏了偏头，“拉克瓦？”<br>他点点头，嘴里却已经抛出了其他问题。“你怎么——黑影告诉你的？”<br>“说不准是我猜出来的？”莫伊拉没有正面回答他的问题，这种事并不常见。“我还以为你已经走了。”<br>也许只是他的错觉，但加布里尔似乎从中听出一点宽慰的意思。<br>“我得收拾下行李。”这只是个借口。事实上，这么多年来，除了他的枪，没有一样东西被他自始至终带在身边。行李对他而言，无非是可有可无的东西。但他不知道自己为什么要说出这种借口。<br>“那我们，上去聊几句？”莫伊拉指了指通往二楼的台阶。“我有件事想告诉你。”<br>他硬生生把溜到嘴边的后半句话咽回腹中，跟着莫伊拉走上二楼。花期已过，此时的露台在夜色中反倒显得有些荒寂。莫伊拉却不在意周围的景致，靠着栏杆，目光不知聚焦在远处的哪一点上。与那日不同，今晚她身着一件立领衬衫，两边的衣袖被干练地挽至肘部，露出有些苍白的肌肤。繁杂的纹样从领口开始向下延伸，覆盖了大半个肩膀。尽管心知对方的伤早已痊愈，加布里尔还是忍不住看向伤口曾经所在的位置，仿佛那一点猩红仍未散去。<br>“你打算说什么？”他决定先听听莫伊拉想说的话。<br>莫伊拉脸上的笑容消失了。她沉吟片刻，才开了口。<br>“我——我收到了绿洲城的邀请。”像是知道加布里尔在看着她，莫伊拉没有转头。<br>绿洲城。光是听见这三个字，他就能感受到这份邀请的分量。<br>他没有接话，莫伊拉便继续说下去。“我被邀请就任他们的基因部长。”<br>他完全有理由相信莫伊拉能胜任这个职位。<br>而他也知道对方究竟想要说什么。他太了解莫伊拉了。没有什么事能让她放弃推进自己实验更进一步的机会，更何况还是绿洲城提供的机会。<br>而那的确是个更适合她的工作。氛围，资源，工作的内容，任何一项都会比他所能提供的更好。那里才是真正能让她施展才华的地方。<br>“这还真是突然。”他沉默半晌，却只说出了这样一句话。他当然可以驳回这份并不正式的申请，但他并不打算那么做。<br>他已经以“私人名义”要走了对方八年的时光，又怎么能再阻止她获得另一个来之不易的机会？他深知，对莫伊拉而言，研究能否推进一步永远在她人生优先项的第一行。<br>对他自己也是如此。<br>他们是两条正交线。加布里尔早就清楚地认识到这一点。他知道，这一天迟早会到来。<br>但这个时刻来得还是比他想象中早。<br>“什么时候？”他问道。<br>“后天上午。”对于加布里尔的默许，莫伊拉并未表现得十分惊讶。“他们希望我能尽快加入他们的工作。”<br>“你自己一定也是。”他开始真心为对方感到高兴了。“那里会很适合你。”<br>“是的，我很期待。”莫伊拉转过头，冲加布里尔露出那熟悉的笑容，只是她的眼神里多了一些他辨别不出的东西。<br>“你没有别的话想说吗？”她问。<br>他想起自己没能说出口的后半句话。此时此刻，它已经失去了意义。<br>“一路顺风。”他想了想，又补了一句。“如果你需要，随时可以来找我。”<br>听见他的话，莫伊拉的嘴角扬起微妙的弧度。“当然，我一定会的。”<br>突然，莫伊拉朝他伸出手，轻微的压迫感隔着面具传来。“你已经不需要它了，对吧？”对方取下他的面具，张开双臂，仿佛在等待着什么。<br>“庆祝你的新生活?”加布里尔愣了片刻，但很快回应了对方的拥抱。他们之间仍然保持着距离，但他还是感受到莫伊拉的体温透过衣物传导到他的掌心。<br>“是我们的。”莫伊拉纠正了他的说法。加布里尔本以为这个拥抱只会点到为止，却发现对方并没有放手的意思。<br>他没回答。<br>短暂的沉默后，莫伊拉松开了手。<br>“我们该回去了。”她提议道。<br>“对，你说得对。”他不自觉重复了几遍，仿佛这样能让他的赞同听上去更加发自真心。<br>即将走下楼梯的时候，她停住脚步。<br>“我仍然接受‘私人请求’，加布里尔。”说完，她便消失在加布里尔的视线中。不一会儿，他听见不远处汽车发动的声音。</p>
+<p>“这真的是你所期待的结果吗?”<br>“当然，这是我自己的选择。”莫伊拉坐进车里，头也不回地答道。“你为什么在这？”<br>“嗯——”年轻的黑客瞥了一眼放在副驾驶位上的东西，表现出一副完全理解的模样，选择性忽略了对方的提问。“看来是我多想了。”<br>“你认识到这一点就好。”</p>
+<p>离开的时候，加布里尔突然发现，今晚没有月亮。</p>
+<h4 id="Chapter-5"><a href="#Chapter-5" class="headerlink" title="Chapter 5"></a>Chapter 5</h4><p>“本次航班飞往绿洲城，请乘坐本航班的旅客带好自己的随身物品准备登机……”广播里，循环播放的清亮女声不停催促着莫伊拉向前走去。正如她来时一般，离开时，她也依旧是独自一人。<br>这再正常不过了。不如说，她从来就没有期待过发生除此以外的其他情节，那不是她的作风，也不是他的。<br>是说再见的时候了。莫伊拉提起手边的行李，走上了舷梯。</p>
+<p>再见到莫伊拉时，他已经回到了熟悉的基地。在证据面前，曾经飞扬跋扈的商业巨头失去了最后的保护伞，只得承认他所犯下的罪行，现出光鲜外表下的丑陋原形，在铁窗中度过余生。一切尘埃落定，无数波澜在世人眼中最终只不过是一篇语焉不详的文章。加布里尔正打算放下手中的报纸，却在看到角落的一则报道时停住了端起咖啡的手。<br>“加比，原来你在这!”背后传来好友的招呼声。“莫伊拉·奥德莱恩？好耳熟的名字……”对方顺着加布里尔的视线看向报纸，低声念出新闻的标题。“你的人？”<br>“对。”他发觉自己的语气出奇的平静。“曾经是。”<br>“真是可惜。”似乎是察觉到什么，好友感慨了几句便岔开话题。“等会儿有个会议，记得参加。”<br>“马上就来。”他将手上的报纸放回桌上，不再回头。</p>
+<blockquote><p>是双向，嗯<br>就觉得正交线这个意象很适合他俩啊，虽然一起做了各种各样的事，但自己的前行轨迹依旧没有发生任何改变，就这么云淡风轻地分别。<br>但谁能说清是不是真的一点留恋都没有呢。<br>想写出这种感觉，但很显然我没做到<br>ne天下第一</p>
+</blockquote><script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>
+            </div>
+            <hr/>
+
+            
+
+    <div class="reprint" id="reprint-statement">
+        
+            <div class="reprint__author">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-user">
+                        文章作者:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="https://alcoholblastburner.top" rel="external nofollow noreferrer">Rink</a>
+                </span>
+            </div>
+            <div class="reprint__type">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-link">
+                        文章链接:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="https://alcoholblastburner.top/2020/12/31/ow-moirakill-zheng-jiao-xian/">https://alcoholblastburner.top/2020/12/31/ow-moirakill-zheng-jiao-xian/</a>
+                </span>
+            </div>
+            <div class="reprint__notice">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-copyright">
+                        版权声明:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    本博客所有文章除特別声明外，均采用
+                    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY-NC-SA 4.0</a>
+                    许可协议。转载请注明来源
+                    <a href="https://alcoholblastburner.top" target="_blank">Rink</a>
+                    !
+                </span>
+            </div>
+        
+    </div>
+
+    <script async defer>
+      document.addEventListener("copy", function (e) {
+        let toastHTML = '<span>复制成功，请遵循本文的转载规则</span><button class="btn-flat toast-action" onclick="navToReprintStatement()" style="font-size: smaller">查看</a>';
+        M.toast({html: toastHTML})
+      });
+
+      function navToReprintStatement() {
+        $("html, body").animate({scrollTop: $("#reprint-statement").offset().top - 80}, 800);
+      }
+    </script>
+
+
+
+            <div class="tag_share" style="display: block;">
+                <div class="post-meta__tag-list" style="display: inline-block;">
+                    
+                        <div class="article-tag">
+                            
+                                <a href="/tags/Overwatch/">
+                                    <span class="chip bg-color">Overwatch</span>
+                                </a>
+                            
+                                <a href="/tags/Moirakill/">
+                                    <span class="chip bg-color">Moirakill</span>
+                                </a>
+                            
+                        </div>
+                    
+                </div>
+                <div class="post_share" style="zoom: 80%; width: fit-content; display: inline-block; float: right; margin: -0.15rem 0;">
+                    <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
+<div id="article-share">
+
+    
+    <div class="social-share" data-sites="twitter,facebook,google,qq,qzone,wechat,weibo,douban,linkedin" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
+    <script src="/libs/share/js/social-share.min.js"></script>
+    
+
+    
+
+</div>
+
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+        <style>
+    .valine-card {
+        margin: 1.5rem auto;
+    }
+
+    .valine-card .card-content {
+        padding: 20px 20px 5px 20px;
+    }
+
+    #vcomments textarea {
+        box-sizing: border-box;
+        background: url("/medias/comment1.png") 100% 100% no-repeat;
+    }
+
+    #vcomments p {
+        margin: 2px 2px 10px;
+        font-size: 1.05rem;
+        line-height: 1.78rem;
+    }
+
+    #vcomments blockquote p {
+        text-indent: 0.2rem;
+    }
+
+    #vcomments a {
+        padding: 0 2px;
+        color: #4cbf30;
+        font-weight: 500;
+        text-decoration: none;
+    }
+
+    #vcomments img {
+        max-width: 100%;
+        height: auto;
+        cursor: pointer;
+    }
+
+    #vcomments ol li {
+        list-style-type: decimal;
+    }
+
+    #vcomments ol,
+    ul {
+        display: block;
+        padding-left: 2em;
+        word-spacing: 0.05rem;
+    }
+
+    #vcomments ul li,
+    ol li {
+        display: list-item;
+        line-height: 1.8rem;
+        font-size: 1rem;
+    }
+
+    #vcomments ul li {
+        list-style-type: disc;
+    }
+
+    #vcomments ul ul li {
+        list-style-type: circle;
+    }
+
+    #vcomments table, th, td {
+        padding: 12px 13px;
+        border: 1px solid #dfe2e5;
+    }
+
+    #vcomments table, th, td {
+        border: 0;
+    }
+
+    table tr:nth-child(2n), thead {
+        background-color: #fafafa;
+    }
+
+    #vcomments table th {
+        background-color: #f2f2f2;
+        min-width: 80px;
+    }
+
+    #vcomments table td {
+        min-width: 80px;
+    }
+
+    #vcomments h1 {
+        font-size: 1.85rem;
+        font-weight: bold;
+        line-height: 2.2rem;
+    }
+
+    #vcomments h2 {
+        font-size: 1.65rem;
+        font-weight: bold;
+        line-height: 1.9rem;
+    }
+
+    #vcomments h3 {
+        font-size: 1.45rem;
+        font-weight: bold;
+        line-height: 1.7rem;
+    }
+
+    #vcomments h4 {
+        font-size: 1.25rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    #vcomments h5 {
+        font-size: 1.1rem;
+        font-weight: bold;
+        line-height: 1.4rem;
+    }
+
+    #vcomments h6 {
+        font-size: 1rem;
+        line-height: 1.3rem;
+    }
+
+    #vcomments p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    #vcomments hr {
+        margin: 12px 0;
+        border: 0;
+        border-top: 1px solid #ccc;
+    }
+
+    #vcomments blockquote {
+        margin: 15px 0;
+        border-left: 5px solid #42b983;
+        padding: 1rem 0.8rem 0.3rem 0.8rem;
+        color: #666;
+        background-color: rgba(66, 185, 131, .1);
+    }
+
+    #vcomments pre {
+        font-family: monospace, monospace;
+        padding: 1.2em;
+        margin: .5em 0;
+        background: #272822;
+        overflow: auto;
+        border-radius: 0.3em;
+        tab-size: 4;
+    }
+
+    #vcomments code {
+        font-family: monospace, monospace;
+        padding: 1px 3px;
+        font-size: 0.92rem;
+        color: #e96900;
+        background-color: #f8f8f8;
+        border-radius: 2px;
+    }
+
+    #vcomments pre code {
+        font-family: monospace, monospace;
+        padding: 0;
+        color: #e8eaf6;
+        background-color: #272822;
+    }
+
+    #vcomments pre[class*="language-"] {
+        padding: 1.2em;
+        margin: .5em 0;
+    }
+
+    #vcomments code[class*="language-"],
+    pre[class*="language-"] {
+        color: #e8eaf6;
+    }
+
+    #vcomments [type="checkbox"]:not(:checked), [type="checkbox"]:checked {
+        position: inherit;
+        margin-left: -1.3rem;
+        margin-right: 0.4rem;
+        margin-top: -1px;
+        vertical-align: middle;
+        left: unset;
+        visibility: visible;
+    }
+
+    #vcomments b,
+    strong {
+        font-weight: bold;
+    }
+
+    #vcomments dfn {
+        font-style: italic;
+    }
+
+    #vcomments small {
+        font-size: 85%;
+    }
+
+    #vcomments cite {
+        font-style: normal;
+    }
+
+    #vcomments mark {
+        background-color: #fcf8e3;
+        padding: .2em;
+    }
+
+    #vcomments table, th, td {
+        padding: 12px 13px;
+        border: 1px solid #dfe2e5;
+    }
+
+    table tr:nth-child(2n), thead {
+        background-color: #fafafa;
+    }
+
+    #vcomments table th {
+        background-color: #f2f2f2;
+        min-width: 80px;
+    }
+
+    #vcomments table td {
+        min-width: 80px;
+    }
+
+    #vcomments [type="checkbox"]:not(:checked), [type="checkbox"]:checked {
+        position: inherit;
+        margin-left: -1.3rem;
+        margin-right: 0.4rem;
+        margin-top: -1px;
+        vertical-align: middle;
+        left: unset;
+        visibility: visible;
+    }
+</style>
+
+<div class="card valine-card" data-aos="fade-up">
+    <div class="comment_headling" style="font-size: 20px; font-weight: 700; position: relative; padding-left: 20px; top: 15px; padding-bottom: 5px;">
+        <i class="fas fa-comments fa-fw" aria-hidden="true"></i>
+        <span>评论</span>
+    </div>
+    <div id="vcomments" class="card-content" style="display: grid">
+    </div>
+</div>
+
+<script src="/libs/valine/av-min.js"></script>
+<script src="/libs/valine/Valine.min.js"></script>
+<script>
+    new Valine({
+        el: '#vcomments',
+        appId: 'R5OhV9z7cES6NsjPSiJ1kwUK-gzGzoHsz',
+        appKey: 'lm6KPV902gbi3mVqno3NkQVt',
+        notify: 'false' === 'true',
+        verify: 'false' === 'true',
+        visitor: 'true' === 'true',
+        avatar: 'mm',
+        pageSize: '10',
+        lang: 'zh-cn',
+        placeholder: 'your comments are welcome'
+    });
+</script>
+
+    
+
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+            <div class="card">
+                <a href="/2020/12/31/ow-moirakill-yi-liao-zhi-wai/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/23.jpg" class="responsive-img" alt="【OW/Moirakill】意料之外">
+                        
+                        <span class="card-title">【OW/Moirakill】意料之外</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            说到底，他会目睹这一切，完全是意外一场。
+                        
+                    </div>
+                    <div class="publish-info">
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2020-12-31
+                        </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/fanfic/" class="post-category">
+                                    fanfic
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/Overwatch/">
+                        <span class="chip bg-color">Overwatch</span>
+                    </a>
+                    
+                    <a href="/tags/Moirakill/">
+                        <span class="chip bg-color">Moirakill</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/2020/12/28/ow-moirakill-for-one-night/">
+                    <div class="card-image">
+                        
+                        <img src="https://i.loli.net/2021/05/25/8V571jrSLM9NkZP.jpg" class="responsive-img" alt="【OW/Moirakill】For One Night">
+                        
+                        <span class="card-title">【OW/Moirakill】For One Night</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            但夜还很长。他站到窗前，拉开窗帘的一角，街上的风雪比他来时似乎还更大了一些。也许他们真的可以共同度过一个夜晚。仅限今晚。
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-12-28
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/fanfic/" class="post-category">
+                                    fanfic
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/Overwatch/">
+                        <span class="chip bg-color">Overwatch</span>
+                    </a>
+                    
+                    <a href="/tags/Moirakill/">
+                        <span class="chip bg-color">Moirakill</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</article>
+
+</div>
+
+
+<script>
+    $('#articleContent').on('copy', function (e) {
+        // IE8 or earlier browser is 'undefined'
+        if (typeof window.getSelection === 'undefined') return;
+
+        var selection = window.getSelection();
+        // if the selection is short let's not annoy our users.
+        if (('' + selection).length < Number.parseInt('120')) {
+            return;
+        }
+
+        // create a div outside of the visible area and fill it with the selected text.
+        var bodyElement = document.getElementsByTagName('body')[0];
+        var newdiv = document.createElement('div');
+        newdiv.style.position = 'absolute';
+        newdiv.style.left = '-99999px';
+        bodyElement.appendChild(newdiv);
+        newdiv.appendChild(selection.getRangeAt(0).cloneContents());
+
+        // we need a <pre> tag workaround.
+        // otherwise the text inside "pre" loses all the line breaks!
+        if (selection.getRangeAt(0).commonAncestorContainer.nodeName === 'PRE') {
+            newdiv.innerHTML = "<pre>" + newdiv.innerHTML + "</pre>";
+        }
+
+        var url = document.location.href;
+        newdiv.innerHTML += '<br />'
+            + '来源: 绘离杂物堆<br />'
+            + '文章作者: Rink<br />'
+            + '文章链接: <a href="' + url + '">' + url + '</a><br />'
+            + '本文章著作权归作者所有，任何形式的转载都请注明出处。';
+
+        selection.selectAllChildren(newdiv);
+        window.setTimeout(function () {bodyElement.removeChild(newdiv);}, 200);
+    });
+</script>
+
+
+<!-- 代码块功能依赖 -->
+<script type="text/javascript" src="/libs/codeBlock/codeBlockFuction.js"></script>
+
+<!-- 代码语言 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeLang.js"></script>
+
+
+<!-- 代码块复制 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeCopy.js"></script>
+
+
+<!-- 代码块收缩 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeShrink.js"></script>
+
+
+<!-- 代码块折行 -->
+
+<style type="text/css">
+code[class*="language-"], pre[class*="language-"] { white-space: pre !important; }
+</style>
+
+
+    </div>
+    <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
+        <div class="toc-widget">
+            <div class="toc-title"><i class="far fa-list-alt"></i>&nbsp;&nbsp;目录</div>
+            <div id="toc-content"></div>
+        </div>
+    </div>
+</div>
+
+<!-- TOC 悬浮按钮. -->
+
+<div id="floating-toc-btn" class="hide-on-med-and-down">
+    <a class="btn-floating btn-large bg-color">
+        <i class="fas fa-list-ul"></i>
+    </a>
+</div>
+
+
+<script src="/libs/tocbot/tocbot.min.js"></script>
+<script>
+    $(function () {
+        tocbot.init({
+            tocSelector: '#toc-content',
+            contentSelector: '#articleContent',
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            collapseDepth: Number('0'),
+            headingSelector: 'h2, h3, h4'
+        });
+
+        // modify the toc link href to support Chinese.
+        let i = 0;
+        let tocHeading = 'toc-heading-';
+        $('#toc-content a').each(function () {
+            $(this).attr('href', '#' + tocHeading + (++i));
+        });
+
+        // modify the heading title id to support Chinese.
+        i = 0;
+        $('#articleContent').children('h2, h3, h4').each(function () {
+            $(this).attr('id', tocHeading + (++i));
+        });
+
+        // Set scroll toc fixed.
+        let tocHeight = parseInt($(window).height() * 0.4 - 64);
+        let $tocWidget = $('.toc-widget');
+        $(window).scroll(function () {
+            let scroll = $(window).scrollTop();
+            /* add post toc fixed. */
+            if (scroll > tocHeight) {
+                $tocWidget.addClass('toc-fixed');
+            } else {
+                $tocWidget.removeClass('toc-fixed');
+            }
+        });
+
+        
+        /* 修复文章卡片 div 的宽度. */
+        let fixPostCardWidth = function (srcId, targetId) {
+            let srcDiv = $('#' + srcId);
+            if (srcDiv.length === 0) {
+                return;
+            }
+
+            let w = srcDiv.width();
+            if (w >= 450) {
+                w = w + 21;
+            } else if (w >= 350 && w < 450) {
+                w = w + 18;
+            } else if (w >= 300 && w < 350) {
+                w = w + 16;
+            } else {
+                w = w + 14;
+            }
+            $('#' + targetId).width(w);
+        };
+
+        // 切换TOC目录展开收缩的相关操作.
+        const expandedClass = 'expanded';
+        let $tocAside = $('#toc-aside');
+        let $mainContent = $('#main-content');
+        $('#floating-toc-btn .btn-floating').click(function () {
+            if ($tocAside.hasClass(expandedClass)) {
+                $tocAside.removeClass(expandedClass).hide();
+                $mainContent.removeClass('l9');
+            } else {
+                $tocAside.addClass(expandedClass).show();
+                $mainContent.addClass('l9');
+            }
+            fixPostCardWidth('artDetail', 'prenext-posts');
+        });
+        
+    });
+</script>
+
+    
+
+</main>
+
+
+
+
+    <footer class="page-footer bg-color">
+    
+        <link rel="stylesheet" href="/libs/aplayer/APlayer.min.css">
+<style>
+    .aplayer .aplayer-lrc p {
+        
+        display: none;
+        
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 16px !important;
+    }
+
+    .aplayer .aplayer-lrc p.aplayer-lrc-current {
+        
+        display: none;
+        
+        font-size: 15px;
+        color: #42b983;
+    }
+
+    
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
+        left: -66px !important;
+    }
+
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
+        left: 0px !important;
+    }
+
+    
+</style>
+<div class="">
+    
+    <div class="row">
+        <meting-js class="col l8 offset-l2 m10 offset-m1 s12"
+                   server="tencent"
+                   type="playlist"
+                   id="7810102597"
+                   fixed='true'
+                   autoplay='false'
+                   theme='#42b983'
+                   loop='all'
+                   order='random'
+                   preload='auto'
+                   volume='0.3'
+                   list-folded='true'
+        >
+        </meting-js>
+    </div>
+</div>
+
+<script src="/libs/aplayer/APlayer.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+
+    
+    <div class="container row center-align" style="margin-bottom: 0px !important;">
+        <div class="col s12 m8 l8 copy-right">
+            Copyright&nbsp;&copy;
+            <span id="year">2020</span>
+            <a href="/about" target="_blank">Rink</a>
+            |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
+            |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
+            <br>
+            
+            &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
+                class="white-color">316.4k</span>&nbsp;字
+            
+            
+            
+            
+            
+            
+            <span id="busuanzi_container_site_pv">
+                |&nbsp;<i class="far fa-eye"></i>&nbsp;总访问量:&nbsp;<span id="busuanzi_value_site_pv"
+                    class="white-color"></span>&nbsp;次
+            </span>
+            
+            
+            <span id="busuanzi_container_site_uv">
+                |&nbsp;<i class="fas fa-users"></i>&nbsp;总访问人数:&nbsp;<span id="busuanzi_value_site_uv"
+                    class="white-color"></span>&nbsp;人
+            </span>
+            
+            <br>
+            
+            <br>
+            
+        </div>
+		<span id="sitetime"></span>
+        <div class="col s12 m4 l4 social-link social-statis">
+
+
+    <a href="mailto:rinkpio@163.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
+        <i class="fas fa-envelope-open"></i>
+    </a>
+
+
+
+
+
+
+
+    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=3152430159" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 3152430159" data-position="top" data-delay="50">
+        <i class="fab fa-qq"></i>
+    </a>
+
+
+
+
+
+
+
+
+</div>
+    </div>
+</footer>
+
+<div class="progress-bar"></div>
+<script language=javascript>
+    function siteTime() {
+        window.setTimeout("siteTime()", 1000);
+        var seconds = 1000;
+        var minutes = seconds * 60;
+        var hours = minutes * 60;
+        var days = hours * 24;
+        var years = days * 365;
+        var today = new Date();
+        var todayYear = today.getFullYear();
+        var todayMonth = today.getMonth() + 1;
+        var todayDate = today.getDate();
+        var todayHour = today.getHours();
+        var todayMinute = today.getMinutes();
+        var todaySecond = today.getSeconds();
+        /* Date.UTC() -- 返回date对象距世界标准时间(UTC)1970年1月1日午夜之间的毫秒数(时间戳)
+        year - 作为date对象的年份，为4位年份值
+        month - 0-11之间的整数，做为date对象的月份
+        day - 1-31之间的整数，做为date对象的天数
+        hours - 0(午夜24点)-23之间的整数，做为date对象的小时数
+        minutes - 0-59之间的整数，做为date对象的分钟数
+        seconds - 0-59之间的整数，做为date对象的秒数
+        microseconds - 0-999之间的整数，做为date对象的毫秒数 */
+        var t1 = Date.UTC(2020, 06, 11, 00, 00, 00); //北京时间2020-6-11 00:00:00
+        var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
+        var diff = t2 - t1;
+        var diffYears = Math.floor(diff / years);
+        var diffDays = Math.floor((diff / days) - diffYears * 365);
+        var diffHours = Math.floor((diff - (diffYears * 365 + diffDays) * days) / hours);
+        var diffMinutes = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours) / minutes);
+        var diffSeconds = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours - diffMinutes * minutes) / seconds);
+        document.getElementById("sitetime").innerHTML = "本站已运行 " +diffYears+" 年 "+diffDays + " 天 " + diffHours + " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
+    }/*因为建站时间还没有一年，就将之注释掉了。需要的可以取消*/
+    siteTime();
+</script>
+
+    <!-- 搜索遮罩框 -->
+<div id="searchModal" class="modal">
+    <div class="modal-content">
+        <div class="search-header">
+            <span class="title"><i class="fas fa-search"></i>&nbsp;&nbsp;搜索</span>
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字"
+                   class="search-input">
+        </div>
+        <div id="searchResult"></div>
+    </div>
+</div>
+
+<script src="/js/search.js"></script>
+<script type="text/javascript">
+$(function () {
+    searchFunc("/search.xml", 'searchInput', 'searchResult');
+});
+</script>
+
+    <!-- 回到顶部按钮 -->
+<div id="backTop" class="top-scroll">
+    <a class="btn-floating btn-large waves-effect waves-light" href="#!">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+</div>
+
+
+    <script src="/libs/materialize/materialize.min.js"></script>
+    <script src="/libs/masonry/masonry.pkgd.min.js"></script>
+    <script src="/libs/aos/aos.js"></script>
+    <script src="/libs/scrollprogress/scrollProgress.min.js"></script>
+    <script src="/libs/lightGallery/js/lightgallery-all.min.js"></script>
+    <script src="/js/matery.js"></script>
+
+    <!-- Baidu Analytics -->
+
+    <!-- Baidu Push -->
+
+<script>
+    (function () {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+
+    
+    <script src="/libs/others/clicklove.js" async="async"></script>
+    
+    
+    <script async src="/libs/others/busuanzi.pure.mini.js"></script>
+    
+
+    
+
+    
+
+    
+    <script type="text/javascript" color="0,0,255"
+        pointColor="0,0,255" opacity='0.7'
+        zIndex="-1" count="99"
+        src="/libs/background/canvas-nest.js"></script>
+    
+
+    
+
+    
+    <script type="text/javascript" src="/libs/background/ribbon-dynamic.js" async="async"></script>
+    
+
+    
+    <script src="/libs/instantpage/instantpage.js" type="module"></script>
+    
+
+</body>
+
+</html>
